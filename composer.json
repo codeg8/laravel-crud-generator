@@ -1,0 +1,35 @@
+{
+    "name": "codeg8/crud-generator",
+    "license": "MIT",
+    "description": "Laravel 5 CRUD Generator",
+    "keywords": [
+        "laravel",
+        "crud",
+        "crud generator",
+        "laravel crud generator"
+    ],
+    "authors": [
+        {
+            "name": "Mohan Yadav",
+            "email": "mohany2712@gmail.com",
+            "homepage": "http://codeg8.aarrq.in"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "^5.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.6",
+        "phpunit/phpunit": "^5.7",
+        "orchestra/testbench": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeg8\\CrudGenerator\\": "src/"
+        },
+        "classmap": [
+            "tests"
+        ]
+    }
+}
